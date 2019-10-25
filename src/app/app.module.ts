@@ -14,6 +14,7 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
 import { NewsPageComponent } from './pages/news-page/news-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { LoginComponent } from './login/login.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginComponent } from './login/login.component';
     ServicesPageComponent,
     NewsPageComponent,
     ContactPageComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     AppRoutingModule,
